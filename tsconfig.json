@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outFile": "public/app.js",
+    "watch":true,
+    "sourceMap":true,
+    "rootDir":"clientsrc/"
+  }
+}
