@@ -4,7 +4,7 @@ class API
     private socket
     constructor()
     {
-        this.socket = window.io('192.168.1.160:3000')
+        this.socket = window.io('localhost:3000')
     }
 
     public addEventListener(key:String, callback:Function) {

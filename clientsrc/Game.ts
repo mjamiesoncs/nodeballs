@@ -60,6 +60,12 @@ class Game
                 ball.speed,
             )
         });
+        this.api.addEventListener('waiting', () => {
+            console.log('waiting')
+        });
+        this.api.addEventListener('ready', () => {
+            console.log('ready')
+        });
         window.requestAnimationFrame(this.render.bind(this));
     }
 
